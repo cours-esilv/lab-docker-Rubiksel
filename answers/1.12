@@ -1,0 +1,2 @@
+docker run -p 5000:5000 -e CURRENT_ENVIRONEMENT=production --name back_end -d rubiksel/docker_tp:latest
+docker run -p 80:80 -e WS_BACK_URL=http://front:5000 --name front_end -d rubiksel/front_end:latest

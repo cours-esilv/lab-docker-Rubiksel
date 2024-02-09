@@ -1,0 +1,3 @@
+docker stop d65d43ac4442
+docker image rm e389e424652e --force
+docker image rm ca6998e38f23 --force

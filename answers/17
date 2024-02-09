@@ -1,0 +1,1 @@
+docker image rm ca6998e38f23 --force

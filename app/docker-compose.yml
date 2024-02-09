@@ -2,3 +2,5 @@ version: '3'
 services:
   my-service:
     image: rubiksel/docker_tp:latest
+    ports: 
+      - "5000:5000"

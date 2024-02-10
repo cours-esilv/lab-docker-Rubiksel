@@ -6,8 +6,8 @@ services:
       - "5000:5000"
     environment: 
       - CURRENT_ENVIRONMENT=development
-    volumes:
-      - ./logs:/app/back/logs
+    # volumes:
+    #   - ./logs:/app/back/logs
 
   front-end:
     image: rubiksel/front_end:latest

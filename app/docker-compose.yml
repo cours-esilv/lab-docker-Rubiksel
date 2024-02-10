@@ -4,3 +4,5 @@ services:
     image: rubiksel/docker_tp:latest
     ports: 
       - "5000:5000"
+    environment: 
+      - CURRENT_ENVIRONMENT=development
